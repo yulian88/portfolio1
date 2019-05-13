@@ -89,5 +89,6 @@ li:hover {
 	}
 	.navbar {
     font-size: 1em;
+		justify-content:end;
 }
 }
