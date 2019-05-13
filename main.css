@@ -65,7 +65,7 @@ body {
 
 .type-string {
     font-family: 'Bungee Hairline', cursive;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     justify-content: center;
     color: black;
@@ -81,6 +81,6 @@ li:hover {
 
 @media (max-width: 695px) {
     .type-string{
-        font-size:30px;
+        font-size:20px;
     }
 }
