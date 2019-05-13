@@ -40,55 +40,56 @@ a {
 .header__item a:hover {
 	color:black;
 }*/
+
 @import url('https://fonts.googleapis.com/css?family=Bungee|Bungee+Hairline');
 
 body {
-    background-image: url("img/bgcity.jpg");
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    font-family: 'Bungee', cursive;
-    font-size: 12px;
+	background-image: url("img/bgcity.jpg");
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	font-family: 'Bungee', cursive;
+	font-size: 12px;
 
 }
 
 .navbar {
-    font-size: 1.5em;
+	font-size: 1.5em;
 }
 
 
 .header {
-    justify-content: space-between;
+	justify-content: space-between;
 }
 
 .type-string {
-    font-family: 'Bungee Hairline', cursive;
-    font-size: 40px;
-    text-align: center;
-    justify-content: center;
-    color: black;
-	padding-top:10px;
+	font-family: 'Bungee Hairline', cursive;
+	font-size: 40px;
+	text-align: center;
+	justify-content: center;
+	color: black;
+	padding-top: 10px;
 }
 
 li:hover {
-    padding:1px;
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
+	padding: 1px;
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
 }
 
 @media (max-width: 695px) {
-    .type-string{
-        font-size:20px;
-    }
-	.my-logo{
-	width:100px;
-	height:100px;
+	.type-string {
+		font-size: 20px;
+	}
+	.my-logo {
+		width: 100px;
+		height: 100px;
 	}
 	.navbar {
-    font-size: 1.2em;
-		justify-content:end;
-}
+		font-size: 1.2em;
+		justify-content: end;
+	}
 }
