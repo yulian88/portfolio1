@@ -65,11 +65,11 @@ body {
 
 .type-string {
     font-family: 'Bungee Hairline', cursive;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     justify-content: center;
     color: black;
-
+	padding-top:10px;
 }
 
 li:hover {
