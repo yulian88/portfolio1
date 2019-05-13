@@ -80,6 +80,27 @@ li:hover {
 	transform: scale(1.2);
 }
 
+.anchor {
+	font-size:15em;
+	text-align:center;
+	align-content:flex-end;
+	
+}
+.link-anchor{
+	width: 100px;
+	height:100px;
+	
+}
+.fas{
+	color:rgba(46, 49, 49, 0.7);
+	margin-top:150px;
+}
+.fas:hover{
+		color:rgba(189, 195, 199, 1);
+
+}
+
+
 @media (max-width: 695px) {
 	.type-string {
 		font-size: 20px;
@@ -90,6 +111,13 @@ li:hover {
 	}
 	.navbar {
 		font-size: 1.2em;
-		justify-content: end;
+		justify-content:flex-end;
+	}
+	.anchor{
+		font-size:6em;
+		text-align:center;
+	}
+	.fas{
+		margin-top:50px;
 	}
 }
