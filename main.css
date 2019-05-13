@@ -83,4 +83,8 @@ li:hover {
     .type-string{
         font-size:20px;
     }
+	.my-logo{
+	width:100px;
+	height:100px;
+	}
 }
