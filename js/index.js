@@ -649,6 +649,12 @@ new TypeIt('#breakLines', {
     speed: 50,
     waitUntilVisible: true
 }).go();
+new TypeIt('.about-me', {
+    strings: [],
+    speed: 30,
+    waitUntilVisible: true
+}).go();
+
 
 var linkNav = document.querySelectorAll('#home,#about-me,#contact-me,#my-projects'), //выбираем все ссылки к якорю на странице
     V = 1;  // скорость, может иметь дробное значение через точку (чем меньше значение - тем больше скорость)

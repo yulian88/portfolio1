@@ -119,15 +119,16 @@ h1 {
 .about-me {
 	margin-top:150px;
 	font-family: 'Bungee Hairline', cursive;
-	font-size:2em;
-	border:.2px solid rgba(228, 233, 237, .6);
+	font-size:2.5em;
+	color:black;
+	border:.1px solid rgba(228, 233, 237, 0.1);
+	border-radius:30px 30px 10px 10px;
+	background-image:url('https://images.pexels.com/photos/1323712/pexels-photo-1323712.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
 	text-align: center;
 	justify-content:center;
 	align-items:center;
-	
 }
 
- 
 
 @media (max-width: 695px) {
 	.type-string {
@@ -147,5 +148,10 @@ h1 {
 	}
 	.fas {
 		margin-top: 50px;
+	}
+
+	.about-me{
+		margin-top:50px;
+		font-size:1em;
 	}
 }
