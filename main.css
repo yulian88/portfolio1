@@ -140,18 +140,20 @@ h1 {
 }
 
 #my-tech {
-	height: 800px;
+	height: 600px;
 
 }
 
 .tech-logo {
 	text-align: center;
+	border: 1px solid rgba(257,257,257,.5);
 }
 
 .tech-logo img {
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 	margin: 5px;
+	
 }
 
 
