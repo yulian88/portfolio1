@@ -41,7 +41,7 @@ a {
 	color:black;
 }*/
 
-@import url('https://fonts.googleapis.com/css?family=Bungee|Bungee+Hairline');
+@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700|Bungee|Bungee+Hairline');
 
 body {
 	background-image: url("img/bgcity.jpg");
@@ -50,13 +50,14 @@ body {
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
-	font-family: 'Bungee', cursive;
+	scroll-behavior: smooth;
 	font-size: 12px;
 
 }
 
 .navbar {
 	font-size: 1.5em;
+	font-family: 'Bungee', cursive;
 }
 
 
@@ -71,6 +72,7 @@ body {
 	justify-content: center;
 	color: black;
 	padding-top: 10px;
+	height: 206px;
 }
 
 li:hover {
@@ -81,25 +83,51 @@ li:hover {
 }
 
 .anchor {
-	font-size:15em;
-	text-align:center;
-	align-content:flex-end;
-	
+	font-size: 15em;
+	text-align: center;
+	align-content: flex-end;
+	height: 300px;
 }
-.link-anchor{
+
+.link-anchor {
 	width: 100px;
-	height:100px;
+	height: 100px;
+
+}
+
+.fas {
+	color: rgba(46, 49, 49, 0.7);
+	margin-top: 150px;
+}
+
+.fas:hover {
+	color: rgba(189, 195, 199, 1);
+
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Bungee', cursive;
+	margin-top: 55px;
+		color: rgba(0, 0, 1, .3);
+
+}
+
+#about-me {
+	height:800px;
+}
+.about-me {
+	margin-top:150px;
+	font-family: 'Bungee Hairline', cursive;
+	font-size:2em;
+	border:.2px solid rgba(228, 233, 237, .6);
+	text-align: center;
+	justify-content:center;
+	align-items:center;
 	
 }
-.fas{
-	color:rgba(46, 49, 49, 0.7);
-	margin-top:150px;
-}
-.fas:hover{
-		color:rgba(189, 195, 199, 1);
 
-}
-
+ 
 
 @media (max-width: 695px) {
 	.type-string {
@@ -111,13 +139,13 @@ li:hover {
 	}
 	.navbar {
 		font-size: 1.2em;
-		justify-content:flex-end;
+		justify-content: flex-end;
 	}
-	.anchor{
-		font-size:6em;
-		text-align:center;
+	.anchor {
+		font-size: 6em;
+		text-align: center;
 	}
-	.fas{
-		margin-top:50px;
+	.fas {
+		margin-top: 50px;
 	}
 }
