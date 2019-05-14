@@ -114,7 +114,7 @@ h1 {
 }
 
 #about-me {
-	height: 800px;
+	height: 400px;
 }
 
 .about-me {
@@ -127,16 +127,31 @@ h1 {
 	background: #bdc3c7;
 	/* fallback for old browsers */
 	/* Chrome 10-25, Safari 5.1-6 */
-	background-color:rgba(227,227,227,.9);
+	background-color: rgba(227, 227, 227, .9);
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	text-align: center;
 	justify-content: center;
 	align-items: center;
 }
+
+.my-tech .anchor {
+	margin-bottom: 100px;
+
+}
+
+#my-tech {
+	height: 800px;
+
+}
+
+.tech-logo{
+	text-align:center;
+}
 .tech-logo img {
-	width:200px;
-	height:200px;
-}  
+	width: 200px;
+	height: 200px;
+	margin: 5px;
+}
 
 
 @media (max-width: 695px) {
@@ -156,15 +171,21 @@ h1 {
 		text-align: center;
 	}
 	.fas {
-		margin-top: 50px;
+		margin-top: 80px;
+	}
+	#about-me {
+		height: 450px;
 	}
 
 	.about-me {
 		margin-top: 50px;
-		font-size: 2em;
+		font-size: 1.7em;
+	}
+	#my-tech{
+		height:700px;
 	}
 	.tech-logo img {
-	width:100px;
-	height:100px;
-}  
+		width: 80px;
+		height: 80px;
+	}
 }
